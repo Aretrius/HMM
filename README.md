@@ -89,8 +89,8 @@ print(viterbi_path)
 
 ## Roadmap <a name = "roadmap"></a>
 
-- [ ] Hidden Semi Markov Models
-  - [ ] Fix computation of posteriors
+- [x] Hidden Semi Markov Models
+  - [x] Fix computation of posteriors (now using torch.clamp)
   - [ ] Implementation of Viterbi algorithm for HSMM
 - [ ] Integration of contextual models
   - [ ] Time dependent context
